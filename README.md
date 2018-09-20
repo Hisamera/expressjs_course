@@ -1,5 +1,5 @@
 # Building a Website with Node & ExpressJS
-This is the repository for Lynda.com course, [Building a Website with Node & ExpressJS](). The full course will be available at [lynda.com](http://lynda.com).
+This is the repository for Lynda.com course, [Building a Website with Node & ExpressJS](). The full course is available at [lynda.com](http://lynda.com).
 - [Author personal website](http://raybo.org)
 
 
@@ -18,4 +18,4 @@ This is the repository for Lynda.com course, [Building a Website with Node & Exp
 For more help setting up a comprehensive Gulp.js workflow, check out [Web Project Workflows with Gulp.js, Git, and Browserify](http://www.lynda.com/Web-Web-Design-tutorials/Web-Project-Workflows-Gulpjs-Git-Browserify/154416-2.html).
 
 ## More Stuff
-Check out some of Author [other courses on lynda.com](http://lynda.com/rayvillalobos). You can also check out Author [youtube channel](http://youtube.com/planetoftheweb), [follow Author on twitter](http://twitter.com/planetoftheweb), or read [Author blog](http://raybo.org).
+Check out some of Author [other courses on lynda.com](http://lynda.com/rayvillalobos). You can also check out his [youtube channel](http://youtube.com/planetoftheweb), [follow him on twitter](http://twitter.com/planetoftheweb), or read [his blog](http://raybo.org).
