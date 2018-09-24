@@ -10,12 +10,23 @@ $(function( ) {
         }, updateFeedback);
     });
 
+    $('.feedback-messages').on('click', function(e) {
+        if (e.target.className == 'feedback-delete btn btn-xs btn-danger') {
+            $.ajax({
+                url: 'api/' + e.target.id,
+                type: 'DELETE',
+                success: updateFeedback
+            }); //ajax
+        }  //the target is a delete button
+    }); //feedback messages
+
     function updateFeedback(data) {
         var output = '';
         $.each(data, function(key, item) {
 
         output += '    <div class="feedback-item item-list media-list">';
         output += '        <div class="feedback-item media">';
+        output += '        <div class="media-left"><button id="'+ key +'" class="feedback-delete btn btn-xs btn-danger"><span class="glyphicon glyphicon-remove"></span></button></div>';
         output += '            <div class="feedback-info media-body">';
         output += '                <div class="feedback-head">';
         output += '                    <div class="feedback-title">'+ item.title +' <small class="feedback-name label label-info">'+ item.name +'</small></div>';
